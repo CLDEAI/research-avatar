@@ -7,8 +7,15 @@
 </head>
 <body>
   <h1>Research conversation</h1>
-  <p>Use the avatar to chat by voice or text.</p>
+  <p>Open the avatar to chat by voice or text.</p>
 
-  <!-- We will add the Anam widget here next. -->
+  <anam-agent
+    agent-id="c09528bd-b217-4236-8da0-1b483a81a7a5"
+    api-base-url="https://lab.anam.ai">
+  </anam-agent>
+  <script
+    src="https://unpkg.com/@anam-ai/agent-widget"
+    async>
+  </script>
 </body>
 </html>
