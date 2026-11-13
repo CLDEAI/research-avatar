@@ -13,8 +13,9 @@
     agent-id="c09528bd-b217-4236-8da0-1b483a81a7a5"
     api-base-url="https://lab.anam.ai">
   </anam-agent>
+
   <script
-    src="https://unpkg.com/@anam-ai/agent-widget"
+    src="https://cdn.jsdelivr.net/npm/@anam-ai/agent-widget"
     async>
   </script>
 </body>
